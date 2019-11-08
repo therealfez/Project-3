@@ -24,7 +24,7 @@ Users can share their travel experiences such as restaurants, points of interest
 
 ## Website Wireframe
 
-![alt](./assets/imgIMG_20191108_135650.jpg)
+![alt](./assets/img/IMG_20191108_135650.jpg)
 
 
 ### Members:
