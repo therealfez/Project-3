@@ -1,6 +1,6 @@
 # Project-3
 
-Trippin’
+### Trippin’
 
 What it does:
 Trippin’ allows users to share their travel experiences in a blog-like manner, specific to each user profile -- they can share information such as time, locations, points of interest, comments, and photos of each place they have experienced. Other users can view such profiles based on their acquired locations and can interact with postings via likes/comments. 
