@@ -26,6 +26,9 @@ Users can share their travel experiences such as restaurants, points of interest
 
 ![alt](./assets/img/IMG_20191108_135650.jpg)
 
+## Project Management
+https://github.com/therealfez/Project-3/projects/1
+
 
 ### Members:
 * Dayne Beronque - Front-End
