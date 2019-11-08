@@ -1,12 +1,12 @@
 # Trippin’
 
-## What it does:
+### What it does:
 Trippin’ allows users to share their travel experiences in a blog-like manner, specific to each user profile -- they can share information such as time, locations, points of interest, comments, and photos of each place they have experienced. Other users can view such profiles based on their acquired locations and can interact with postings via likes/comments. 
 
-## How it works:
+### How it works:
 Users can share their travel experiences such as restaurants, points of interest and the comments and they will be stored in the database. Other travelers can search the trips based on the location and the duration.
 
-## Technologies:
+### Technologies:
 * HTML
 * CSS
 * Javascript
@@ -22,9 +22,12 @@ Users can share their travel experiences such as restaurants, points of interest
 * Heroku
 * mLab
 
-## Website Wireframe
+### Website Wireframe
 
 ![alt](./assets/img/IMG_20191108_135650.jpg)
+
+### Project Management
+https://github.com/therealfez/Project-3/projects/1
 
 
 ### Members:
