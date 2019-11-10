@@ -2,11 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Nav from "./components/Nav";
+import searchBar from "./components/searchBar";
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <searchBar />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
