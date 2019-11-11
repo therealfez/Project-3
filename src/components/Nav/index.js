@@ -18,7 +18,7 @@ function Nav() {
         </li>
       </ul>
     </div>
-  </nav>
+    </nav>
 
   );
 }
