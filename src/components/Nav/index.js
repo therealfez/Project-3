@@ -3,7 +3,7 @@ import "./style.css"
 
 function Nav() {
   return (
-    <nav class="navbar sticky-top navbar-expand-sm navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand navText d-lg-inline-block" href="index.html">
       Trip-Inn <i class="fab fa-pagelines"></i>
     </a>

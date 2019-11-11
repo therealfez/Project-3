@@ -6,6 +6,7 @@ import Search from "./pages/Search";
 import Upload from "./pages/Upload";
 import NotFound from "./pages/NotFound";
 import Nav from "./components/Nav";
+import "./index.css";
 
 
 function App() {
