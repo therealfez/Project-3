@@ -1,23 +1,24 @@
 import React from "react";
+import "/Users/dayne/Project-3/src/components/Nav/style.css"
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "#e3f2fd"}}>
-      <a className="navbar-brand" href="/">Trippin'</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">Search<span class="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">Upload</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand navText d-lg-inline-block" href="index.html">
+      Trip-Inn <i class="fab fa-pagelines"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse flex-row-reverse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link navText" href="submit.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   );
 }
