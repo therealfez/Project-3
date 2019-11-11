@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/dayne/Project-3/src/components/Nav/style.css"
+import "./style.css"
 
 function Nav() {
   return (
@@ -18,7 +18,7 @@ function Nav() {
         </li>
       </ul>
     </div>
-  </nav>
+    </nav>
 
   );
 }
