@@ -3,7 +3,7 @@ import React from 'react';
 // import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Search from "./pages/Search";
-// import Upload from "./pages/Upload";
+import Upload from "./pages/Upload";
 import NotFound from "./pages/NotFound";
 import Nav from "./components/Nav";
 
@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Search} />
         <Route exact path="/search" component={Search} />
-        {/* <Route exact path="/upload" component={Upload} /> */}
+        <Route exact path="/upload" component={Upload} />
         <Route component={NotFound} />
       </Switch>
     </div>
