@@ -7,7 +7,7 @@ function Search() {
     <form>
       <label>
         <p>City Search</p>
-        <input type="text" name="name" />
+        <input id="searchForm" type="text" name="name" />
       </label>
       <input type="submit" value="Submit" />
     </form>
