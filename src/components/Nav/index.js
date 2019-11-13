@@ -4,8 +4,7 @@ import "./style.css"
 function Nav() {
   return (
     <nav class="navbar sticky-top navbar-expand-sm navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand navText d-lg-inline-block" href="index.html"> <i class="far fa-paper-plane"></i> TRIP-IN <i class="fab fa-pagelines"></i>
-    </a>
+    <a class="navbar-brand navText d-lg-inline-block" href="index.html"> <i class="far fa-paper-plane fa-sm"></i> TripIn </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
