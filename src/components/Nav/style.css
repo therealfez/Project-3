@@ -1,12 +1,22 @@
-.mr-auto {
+/* .mr-auto {
     margin-right: 0 !important;
     color: pink;
   }
   .navbar-toggleable-md .navbar-collapse {         
     -webkit-justify-content: flex-end;
     justify-content: flex-end;  
-  }
+  } */
 
 .sticky-top {
-    opacity: .2;
+    opacity: 1;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif; font-weight:700;
+    color: transparent;
+}
+
+.navbar-brand navText d-lg-inline-block, .far fa-paper-plane, .nav-link navText {
+  /* opacity: 1; */
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif; font-weight:700;
+  color: transparent;
 }

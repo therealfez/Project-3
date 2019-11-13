@@ -6,6 +6,8 @@ import Search from "./pages/Search";
 import Upload from "./pages/Upload";
 import NotFound from "./pages/NotFound";
 import Nav from "./components/Nav";
+// import Pin from "./components/Pin";
+// import Slogan from "./components/Slogan";
 import "./index.css";
 
 
@@ -24,5 +26,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
