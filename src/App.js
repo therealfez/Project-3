@@ -7,6 +7,10 @@ import Upload from "./pages/Upload";
 import NotFound from "./pages/NotFound";
 import Nav from "./components/Nav";
 import Registration from "./components/auth/Registration"
+// import Pin from "./components/Pin";
+// import Slogan from "./components/Slogan";
+import "./index.css";
+
 
 function App() {
   return (
@@ -26,5 +30,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;

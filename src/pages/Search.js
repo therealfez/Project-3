@@ -1,18 +1,20 @@
 import React from "react";
 // import { Col, Row, Container } from "../components/Grid";
 // import Jumbotron from "../components/Jumbotron";
+import "./search.css"
+
+
 
 function Search() {
   return (
-    <form>
-      <label>
-        <p>City Search</p>
-        <input type="text" name="name" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-
+    <div id="search">
+      <input type="text"></input>
+      <button>
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
   );
 }
+
 
 export default Search;
