@@ -6,20 +6,23 @@ import Search from "./pages/Search";
 import Upload from "./pages/Upload";
 import NotFound from "./pages/NotFound";
 import Nav from "./components/Nav";
-
+import Registration from "./components/auth/Registration"
 
 function App() {
   return (
     <Router>
-    <div className="App">
-      <Nav />
-      <Switch>
-        <Route exact path="/" component={Search} />
-        <Route exact path="/search" component={Search} />
-        <Route exact path="/upload" component={Upload} />
-        <Route component={NotFound} />
-      </Switch>
-    </div>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Search} />
+          <Route exact path="/search" component={Search} />
+          <Route exact path="/upload" component={Upload} />
+          <Route component={NotFound} />
+        </Switch>
+      </div>
+      <div>
+        <Registration />
+      </div>
     </Router>
   );
 }
