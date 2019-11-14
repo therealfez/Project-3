@@ -6,7 +6,7 @@ function Search() {
   return (
     <form>
     <div className="form-group">
-        <label for="exampleFormControlInput1">Name of the City</label>
+        <label for="exampleFormControlInput1">Item</label>
         <input type="text" class="form-control" id="exampleFormControlInput1" />
     </div>
     <div className="form-group">
